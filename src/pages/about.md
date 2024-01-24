@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
+title: ""
 ---
 <div>
   <img src="/assets/langz.jpg" class="sm:w-1/2 mx-auto" alt="阆中古城">
