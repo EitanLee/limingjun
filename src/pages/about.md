@@ -3,13 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
+我叫李明君，从小城<a href="https://www.runoob.com/">阆中</a>来，2019年毕业于西南财经大学天府学院，本科学的会计专业。当然大学四年没有好好听课，毕业后也没做会计，去过充电宝共享的街电做客服，京东的超市做库管，也送过外卖，和朋友卖过净水器。直到2021年回到会计行业，在西南民族大学财务处做外包，主要是核算工作，直到2024年合同期结束。
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
