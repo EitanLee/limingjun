@@ -4,7 +4,6 @@ author: lee
 pubDatetime: 2022-06-09T03:42:51Z
 slug: 小艾上班记读书笔记
 featured: false
-draft: false
 tags:
   - 会计
   - 读书笔记
