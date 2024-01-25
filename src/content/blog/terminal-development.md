@@ -1,88 +1,59 @@
 ---
-title: How Do I Develop My Terminal Portfolio Website with React
-author: Sat Naing
+title: 小艾上班记
+author: lee
 pubDatetime: 2022-06-09T03:42:51Z
-slug: how-do-i-develop-my-terminal-portfolio-website-with-react
+slug: 小艾上班记读书笔记
 featured: false
 draft: false
 tags:
-  - JavaScript
-  - ReactJS
-  - ContextAPI
-  - Styled-Components
-  - TypeScript
+  - 会计
+  - 读书笔记
 description:
-  "EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components.
-  Includes features like autocomplete, multiple themes, command hints etc."
----
-
-> This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
-
-Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.
-
-![Sat Naing's Terminal Portfolio](https://satnaing.dev/_ipx/w_2048,q_75/https%3A%2F%2Fres.cloudinary.com%2Fnoezectz%2Fimage%2Fupload%2Fv1654754125%2FSatNaing%2Fterminal-screenshot_gu3kkc.png?url=https%3A%2F%2Fres.cloudinary.com%2Fnoezectz%2Fimage%2Fupload%2Fv1654754125%2FSatNaing%2Fterminal-screenshot_gu3kkc.png&w=2048&q=75)
 
 ## Table of contents
 
-## Intro
+## 公司注册流程
+工商注册分8步：（1）选择公司形式；（2）核名；（3）刻私章、租房（自己厂房出租除外）、公司章程；（4）验资；（5）注册、刻公章、财务章；（6）办理企业组织机构代码证；（7）办理税务登记、购发票；（8）开户。
 
-Recently, I've developed and published my portfolio + a blog. I’m glad I got some good feedback for it. Today, I want to introduce my new terminal-like portfolio website. It is developed using ReactJS, TypeScript. I got this idea from CodePen and YouTube.
+步骤一：资料准备
 
-## Tech Stack
+1. 法人身份证正反面
 
-This project is a frontend project without any backend codes. The UI/UX part is designed in Figma. For the frontend user-interface, I chose React over pain JavaScript and NextJS. Why?
+2. 股​‌‌东人数确认、每一位股东的身份证信息（身份证正反面照片）
 
-- Firstly, I want to write declarative code. Managing HTML DOM using JavaScript imperatively is really tedious.
-- Secondly, because it is React!!! It is fast, and reliable.
-- Lastly, I don’t need much of the SEO features, routing and image optimization provided by NextJS.
+3. 法人、全体股东、监事的电子签章（电子网银）即银行U盾。
 
-And of course there's TypeScript for type checking.
+4. 注册地址，即：地址租赁红本（需有其中一项：商用房屋租赁红本或租赁凭证或合同/自有房屋地址提供房产证明/连续三个月租赁凭证或水电费缴费单据/所在地街道办盖章租赁凭证）
 
-For styling, I took a different approach than what I usually do. Instead of choosing Pure CSS, Sass, or Utility CSS Framework like TailwindCSS, I chose the CSS-in-JS way (Styled-Components). Although I’ve known about Styled-Components for some time, I’ve never tried it out. So, the writing style and structures of Styled-Components in this project may not be very organized or very good.
+步骤二：网上核名
 
-This project doesn’t need very complex state management. I just use ContextAPI in this project for multiple theming and to avoid prop drilling.
+然后等待核名通过（2-3个工作日）
 
-Here’s a quick recap for the tech stack.
+步骤三：租房
 
-- Frontend: [ReactJS](https://reactjs.org/ "React Website"), [TypeScript](https://www.typescriptlang.org/ "TypeScript Website")
-- Styling: [Styled-Components](https://styled-components.com/ "Styled-Components Website")
-- UI/UX: [Figma](https://figma.com/ "Figma Website")
-- State Management: [ContextAPI](https://reactjs.org/docs/context.html "React ContextAPI")
-- Deployment: [Netlify](https://www.netlify.com/ "Netlify Website")
+要有房产证或相关的产权证明，租房后要签订租房合同，并让房东提供房产证的复印件。
 
-## Features
+步骤四：申请设立登记（注册资料提交）
 
-Here are some features of the project.
+核名通过后，设立登记。
 
-### Multiple Themes
+步骤五：到工商局领取营业执照。
 
-Users can change multiple themes. At the time of writing this post, there are 5 themes; and more themes will probably be added in the future. The selected theme is saved in local storage so that the theme won’t change on page refresh.
+设计登记资料提交后，按照结果提示，去工商局领取营业执照即可，必须带上经办人的身份证（谁的电子网银申请的就带谁的身份证，法人自主办理的带上法人身份证即可。
 
-![Setting different theme](https://i.ibb.co/fSTCnWB/terminal-portfolio-multiple-themes.gif)
+步骤六：刻章
 
-### Command-line Completion
+一般是三章：公章、财务章、法人章（看具体需要，有必要的还需要刻发票章）。
 
-To look and feel as close to the actual terminal as possible, I put a command-line completion feature which auto fills in partially typed commands by simply pressing ‘Tab’ or ‘Ctrl + i’.
+领取营业执照的时候，工商局会有一份附带二维码的文件和一条短信（短信上有刻章编号等信息记得保存），带上营业执照和那份文件以及短信和办理人身份证。到可以对接工商局系统的刻章店里面刻章即可。（目前刻章不需要法人到场。）
 
-![Demonstrating command-line completion](https://i.ibb.co/CQTGGLF/terminal-autocomplete.gif)
-
-### Previous Commands
-
-Users can go back to the previous commands or navigate the previously typed commands by pressing Up & Down Arrows.
-
-![Going back to previous commands with UP Arrow](https://i.ibb.co/vD1pSRv/terminal-up-down.gif)
-
-### View/Clear Command History
-
-previously typed commands can be viewed by typing ‘history’ in the command line. All the command history and terminal screen can be wiped out by typing ‘clear’ or pressing ‘Ctrl + l’.
-
-![Clearing the terminal with 'clear' or 'Ctrl + L' command](https://i.ibb.co/SJBy8Rr/terminal-clear.gif)
-
-## Outro
-
-This is a really fun project, and one special part of this project is I had to focus on logic rather than user-interface (even though this is kind of a frontend project).
-
-## Project Links
-
-- Website: [https://terminal.satnaing.dev/](https://terminal.satnaing.dev/ "https://terminal.satnaing.dev/")
-- Repo: [https://github.com/satnaing/terminal-portfolio](https://github.com/satnaing/terminal-portfolio "https://github.com/satnaing/terminal-portfolio")
+## 建账
+10本会计凭证、3本收款凭证、3本付款凭证、4本转账凭证；现金日记账1本、银行存款日记账一本；数量金额式明细账2本、借方多栏式明细账1本、贷方多栏式明细账1本、借方贷方多栏式明细账1本、三栏式明细账1本；总分类账1本；资产负债表、利润表、现金流量表各1本；档案盒1个、胶水1瓶、订书机1个、回型针1盒。
+- 三栏式明细账适用于只需登记金额的债权债务，债权债务懂吧？一般是往来账（应收账款、应付账款，应收、应付账款懂吧？应收：别人欠你钱，是你应该收回来的；应付：你欠别人钱，是你应该付给别人的）
+- 数量金额式明细账一般用于登记原材料、库存商品，因为这些存货科目与应收应付不一样，你不仅要登记金额，还要登记数量
+- 借方多栏式主要用于费用明细账，如生产成本、制造费用、管理费用；贷方多栏式主要用于收入明细账，如主营业务收入、其他业务收入；而借方贷方多栏式一般用于应交税金（增值税）明细账、本年利润
+### 会计科目
+《企业会计准则》有156个科目，适合不同行业的需要，你就一个小企业，要那么多的科目干嘛？那我该选哪一些科目呢
+一般有现金、银行存款、应收账款、预付账款、其他应收账款、应付账款、预收账款、其他应付账款、原材料、库存商品、固定资产、累计折旧、无形资产、短期借款、实收资本、资本公积、盈余公积、未分配利润、主营业务收入、主营业务成本、管理费用、财务费用、销售费用等科目。把这些科目都登记在总账中，尽量多留点空白页，少了以后可以再补
+- 往来账的科目包含应收账款、预付账款、其他应收账款、应付账款、预收账款、其他应付账款
+每个科目根据实际情况设立明细，如应收账款、预收账款按客户设明细科目，如：xxx（客户简称），应付账款、预付账款按供应商设明细科目，其他应收款各单位情况不一样，一般情况为：设备用金：按人员名字再设下一级明细科目；保证金：按收保证金的单位设下一级明细科目；个人借款：按借款人名字设下一级明细科目；其他应付款一般按大类设二级明细，如：社保、公积金等，再按人名或单位设三级明细。
