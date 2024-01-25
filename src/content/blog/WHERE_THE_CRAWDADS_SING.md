@@ -1,12 +1,11 @@
 ---
 title: Where the Crawdads Sing
-author: Sat Naing
+author: lee
 pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
 tags:
-  - TypeScript
-  - Astro
+  - 外国小说
 description: "喇蛄吟唱的地方"
 ---
 
