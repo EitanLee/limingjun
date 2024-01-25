@@ -1,5 +1,5 @@
 ---
-title: Tailwind Typography Plugin
+title: Where the Crawdads Sing
 author: Sat Naing
 pubDatetime: 2022-07-05T02:05:51Z
 featured: false
@@ -7,22 +7,10 @@ draft: false
 tags:
   - TypeScript
   - Astro
-description: "EXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively."
+description: "喇蛄吟唱的地方"
 ---
 
-> This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
-
-By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
-
-We get lots of complaints about it actually, with people regularly asking us things like:
-
-> Why is Tailwind removing the default styles on my `h1` elements? How do I disable this? What do you mean I lose all the other base styles too?
-> We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a `p` element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look _awesome_, not awful.
-
-The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
-
-It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
-
+![中文译本封面图](@assets/images/WHERE_THE_CRAWDADS_SING.JPG)
 ```html
 <article class="prose">
   <h1>Garlic bread with cheese: What the science tells us</h1>
