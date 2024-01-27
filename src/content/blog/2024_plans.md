@@ -4,6 +4,7 @@ pubDatetime: 2024-01-04T09:30:41.816Z
 title: Plan B for 2024
 slug: "plan-for-2024"
 featured: true
+draft: false
 tags:
   - Plan
 description: "2024年的一些计划"
