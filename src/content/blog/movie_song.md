@@ -14,7 +14,7 @@ description:
   无法释怀的光影
 ---
 
-​<audio id="audio" controls preload="auto" src="https://music.163.com/song?id=26856864&userid=8852092104">浏览器不支持音频播放</audio>
+​<audio id="audio" controls preload="auto" src="http://music.163.com/song/media/outer/url?id=26856864.mp3">浏览器不支持音频播放</audio>
 
 ## Table of contents
 
