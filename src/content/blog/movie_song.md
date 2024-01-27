@@ -14,7 +14,7 @@ description:
   无法释怀的光影
 ---
 
-​<audio id="audio" controls preload="auto" src="../../assets/ABBA - The Winner Takes It All.mp3">浏览器不支持音频播放</audio>
+​<audio id="audio" controls preload="auto" src="https://github.com/EitanLee/limingjun/blob/main/src/assets/ABBA%20-%20The%20Winner%20Takes%20It%20All.mp3">浏览器不支持音频播放</audio>
 
 ## Table of contents
 
