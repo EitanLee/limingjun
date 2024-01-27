@@ -1,21 +1,20 @@
 ---
-author: Sat Naing
+author: lee
 pubDatetime: 2022-09-26T12:13:24Z
 modDatetime: 2024-01-04T09:09:06Z
-title: Predefined color schemes
-slug: predefined-color-schemes
+title: 佳片有约
+slug: one_movie
 featured: false
 draft: false
 tags:
-  - color-schemes
+  - 电影
+  - 电视剧
+  - 音乐
 description:
-  Some of the well-crafted, predefined color schemes for AstroPaper blog
-  theme.
+  无法释怀的光影
 ---
 
-I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.
-
-If you don't know how you can configure color schemes, check [this blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/).
+​<audio id="audio" controls="" preload="none"><source id="mp3" src="@assets/"></audio>
 
 ## Table of contents
 
