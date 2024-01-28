@@ -2,7 +2,7 @@
 author: lee
 pubDatetime: 2022-09-26T12:13:24Z
 modDatetime: 2024-01-04T09:09:06Z
-title: 佳片有约
+title: 万物静默如谜
 slug: one_movie
 featured: false
 draft: false
@@ -11,7 +11,7 @@ tags:
   - 电视剧
   - 音乐
 description:
-  无法释怀的光影
+  
 ---
 
 > Medicine, law, business, engineering: these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love... these are what we stay alive for.
@@ -20,12 +20,13 @@ description:
 
 ## Table of contents
 
-## 新闻编辑室
+## 电影
+- <a href="https://movie.douban.com/subject/35902857/">完美的日子</a>
 
+## 电视
+- 新闻编辑室
+- 绝命毒师
+- 请回答1998
 
-
-## 疑犯追踪
-
-
-
-## 请回答1998
+## 音乐
+- 
