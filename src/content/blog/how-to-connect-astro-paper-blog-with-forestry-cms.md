@@ -1,126 +1,42 @@
 ---
-title: How to connect AstroPaper blog with Forestry CMS
-author: Sat Naing
-pubDatetime: 2022-09-21T05:17:19Z
-slug: how-to-connect-astro-paper-blog-with-forestry-cms
+title: 初会实务
+author: lee
+pubDatetime: 2024-01-02T05:17:19Z
+slug: accounting
 featured: false
 draft: false
 tags:
-  - docs
-  - forestry-cms
-  - astro-paper
-ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
+  - 笔记
 description:
-  Step by step process of connecting Astro-Paper blog theme with Forestry
-  Headless CMS.
+  初会实务笔记
 ---
-
-> Important!!! Forestry is going to be discontinued on April 22nd, 2023. You can [read their announcement](https://forestry.io/blog/forestry.io-end-of-life/) for more info.
-
-In this article, I will explain step by step process of connecting AstroPaper theme with the Forestry headless CMS. So, let's get started 🎉
 
 ## Table of contents
 
-## What is Forestry?
+## 第一章 会计概述
+### 会计的概念
+经济管理活动（筹资、采购、生产、销售...），用会计加工，生成财务报告，提供给使用者
 
-[Forestry](https://forestry.io/ "Forestry Website") is a git-based headless CMS and we can manage our markdown contents easily by using that. Although it is not an open-sourced CMS, it has a good free plan by which we can import up to 3 sites (3 repositories). In this article, I'll demonstrate how we can use Forestry as git-based CMS of our AstroPaper blog theme.
+会计的基本职能：<font color=66CDAA>核算</font>与<font color=66CDAA>监督</font>
 
-## Login / Register an account at Forestry.io
+1.概念  
+  现代会计—— <font color=66CDAA>以货币为主要计量单位</font>，采用专门方法和程序，对企业和行政、事业单位的经济活动进行准确完整的、连续系统的核算和监督，以如实反映受托责任履行情况和提供有用经济信息为主要目的的经济管理活动。 
+2.会计的基本特征  
+  - 以货币为主要计量单位，其他计量尺度（实物计量尺度、劳动计量尺度、时间计量尺度等）作为辅助性补充。  
+  - 准确完整性、连续系统性。  
 
-First of all, you have to create an account at [Forestry website](https://app.forestry.io/login "Forestry Login Page"). I usually sign up with my Github account.
+### 会计的职能 
+基本职能：⭐⭐
+- 核算：会计以货币为主要计量单位，对特定主体的经济活动进行<font color=66CDAA>确认</font>、<font color=66CDAA>计量</font>、<font color=66CDAA>记录</font>和<font color=66CDAA>报告</font>（核算的流程），贯穿于经济活动的全过程，是会计<font color=66CDAA>最基本</font>的职能。（基本职能中更基本的职能）
 
-![Forestry Login page](https://res.cloudinary.com/noezectz/v1663739096/astro-paper/Forestry-io_hk5yzv.png)
+- 监督：对特定主体经济活动和相关会计核算的真实性、完整性、合法性和合理性进行审查。
+  - 真实性：是不是实际发生的经纪业务（真实发生的）
+  - 完整性：核算的范围和内容全面
+  - 合法性：符合国家有关法律法规
+  - 合理性：符合财务收支计划
 
-## Import AstroPaper site (repository)
-
-This part is importing the repository to Forestry and a little bit of set up process.
-
-### Add Site
-
-After logging in/signing up an account, import your AstroPaper site by clicking "Add Site" button.
-
-![Forestry 'My sites' page](https://res.cloudinary.com/noezectz/v1663739752/astro-paper/Forestry-io_1_z1bdyd.png)
-
-### Select SSG
-
-In this case, just choose "Others"
-
-![Selecting 'Others' as a site generator](https://res.cloudinary.com/noezectz/v1663740872/astro-paper/Forestry-io_2_blrrw2.png)
-
-### Select Git Provider
-
-My git provider is Github and I assume yours is the same. So, choose "Github".
-
-![Selecting Github as a git provider](https://res.cloudinary.com/noezectz/v1663740922/astro-paper/Forestry-io_3_pj1v8v.png)
-
-After this, the process of importing site (repo) is done.
-
-## Set up Sidebar
-
-The next phase after importing site is setting up sidebar menu. You can add many sidebar menu as you want. However, I'll only add one sidebar menu in this case.
-
-Navigate to "Finish setup process" > "Set up sidebar" and click "Configure sitebar"
-
-![Forestry welcome screen](https://res.cloudinary.com/noezectz/v1663740974/astro-paper/forestry-io_4_j35uk9.png)
-
-Then, click "Add Section" button.
-
-![Clicking 'Add Section' for sidebar](https://res.cloudinary.com/noezectz/v1663741011/astro-paper/forestry-io_5_sxtgvx.png)
-
-After that, choose DIRECTORY for the Section Type.
-
-![Choosing 'DIRECTORY' as the Selection Type](https://res.cloudinary.com/noezectz/v1663741052/astro-paper/forestry-io_6_lddmkx.png)
-
-Then, configure the directory section. You can follow along with my setup.
-
-![Configuring the Directory Section](https://res.cloudinary.com/noezectz/v1663741105/astro-paper/forestry-io_7_jkwgi1.png)
-
-After this step, you should see a sidebar menu "Blog Posts" and some blog posts.
-
-## Set up Media Import
-
-In Forestry CMS, you can set up different options for media (aka assets) such as Cloudinary, git commit media etc. I usually store my assets in [Cloudinary](https://cloudinary.com/). To set up media import, go to Settings > Media. Then select your image storage provider. (I chose Cloudinary).
-
-![Setting up 'Cloudinary' as the media import](https://res.cloudinary.com/noezectz/v1663741636/astro-paper/forestry-io-media-import_1_f8i4lm.png)
-
-You can see details of Forestry Cloudinary setup at [Forestry documentation](https://forestry.io/docs/media/cloudinary/).
-
-## Set up Front matter template
-
-After setting everything up, you can set up front matter template for your future blog post. To set up front matter template, navigate to "Front matter" menu on the sidebar.
-
-Then, click "Add Template" button at the top right corner.
-
-![Front Matter Templates page](https://res.cloudinary.com/noezectz/v1663742060/astro-paper/forestry-io-frontmatter_yskfvn.png)
-
-Select new template based on existing document.
-
-![Creating new template based on existing document](https://res.cloudinary.com/noezectz/v1663742179/astro-paper/forestry-io-existing-doc_bwcb9q.png)
-
-Then, add template name and choose one of my document page as template.
-
-As the final setup, make some adjustment in the front matter field settings.
-
-![Making some adjustment in a front matter field setting](https://res.cloudinary.com/noezectz/v1663742450/astro-paper/forestry-io-fm-config_jqmgwz.png)
-
-Here are some adjustments you have to make.
-
-**_title_**
-
-- Validation => REQUIRED => true
-
-**_author_**
-
-- Default => your name
-
-**_datetime_**
-
-- Default => USE "NOW" AS DEFAULT
-
-**_description_**
-
-- Validation => REQUIRED => true
-
-## Conclusion
-
-You can now post your articles and write whatever you want.
+核算和监督的关系：相辅相成、辩证统一，核算是监督的基础，监督是核算的质量保障
+拓展职能：
+- 评价经营业绩（过去）
+- 参与经济决策（现在）
+- 预测经济前景（未来）
