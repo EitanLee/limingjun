@@ -1,10 +1,10 @@
 ---
 title: 都江堰、青城山、乐山大佛、峨眉山（自驾版）
 author: lee
-pubDatetime: 2024-02-18T015:06:31Z
+pubDatetime: 2024-2-18T16:05:51Z
 slug: 过年3天的特种兵之旅
 featured: true
-draft: true
+draft: false
 tags:
   - 旅行
 description: 都江堰、青城山、乐山大佛、峨眉山
@@ -24,3 +24,4 @@ description: 都江堰、青城山、乐山大佛、峨眉山
 ![下山版路线图](@assets/images/Itinerary_dujiangyan.jpg)
 
 #### 🎗️Tips
+鱼嘴可以坐观光车（10元）到飞沙堰
