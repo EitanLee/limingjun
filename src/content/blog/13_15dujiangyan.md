@@ -1,13 +1,13 @@
 ---
 title: 都江堰、青城山、乐山大佛、峨眉山（自驾版）
 author: lee
-pubDatetime: 2024-2-18T16:05:51Z
+pubDatetime: 2024-02-18T16:05:51Z
 slug: 过年3天的特种兵之旅
 featured: true
 draft: false
 tags:
   - 旅行
-description: 都江堰、青城山、乐山大佛、峨眉山
+description: "都江堰、青城山、乐山大佛、峨眉山"
 ---
 
 ## 准备
@@ -25,3 +25,4 @@ description: 都江堰、青城山、乐山大佛、峨眉山
 
 #### 🎗️Tips
 鱼嘴可以坐观光车（10元）到飞沙堰
+下山的路线整体时间短一些，南桥开灯的时间在6点，可以看情况合理分配时间。
