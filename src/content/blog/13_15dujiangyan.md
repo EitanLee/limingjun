@@ -2,12 +2,12 @@
 title: 都江堰、青城山、乐山大佛、峨眉山（自驾版）
 author: lee
 pubDatetime: 2024-02-18T16:05:51Z
-slug: 过年3天的特种兵之旅
+slug: travel_dujiangyan
 featured: true
 draft: false
 tags:
   - 旅行
-description: "都江堰、青城山、乐山大佛、峨眉山"
+description: "过年3天的特种兵之旅"
 ---
 
 ## 准备
@@ -21,8 +21,9 @@ description: "都江堰、青城山、乐山大佛、峨眉山"
 - 👼🧓6岁以下、65岁以上免费🆓
 #### 🗺️路线
 我们是把车停在景区入口的P1停车场，然后打车到「秦堰楼」，只需13元左右。然后在秦堰楼俯瞰整个都江堰景区。然后就是一路下山，二王庙➡️安澜桥➡️鱼嘴➡️飞沙堰➡️离堆/宝瓶口➡️伏龙观➡️堰功道➡️南桥
-![下山版路线图](@assets/images/Itinerary_dujiangyan.jpg)
+![下山版路线图](@assets/images/13_15dujiangyan/Itinerary_dujiangyan.jpg)
 
 #### 🎗️Tips
 鱼嘴可以坐观光车（10元）到飞沙堰
-下山的路线整体时间短一些，南桥开灯的时间在6点，可以看情况合理分配时间。
+下山的路线整体时间短一些，南桥开灯的时间在6点，如果想看可以看情况合理分配时间。
+![都江堰南桥](@assets/images/13_15dujiangyan/都江堰南桥.jpg)
