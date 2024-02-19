@@ -25,5 +25,5 @@ description: "过年3天的特种兵之旅"
 
 #### 🎗️Tips
 鱼嘴可以坐观光车（10元）到飞沙堰
-下山的路线整体时间短一些，南桥开灯的时间在6点，如果想看可以看情况合理分配时间。
-![都江堰南桥](@assets/images/13_15dujiangyan/都江堰南桥.jpg)
+
+![都江堰南桥](@assets/images/13_15dujiangyan/nanqiao.jpg)
