@@ -1,5 +1,5 @@
 ---
-title: 都江堰、青城山、乐山大佛、峨眉山（自驾版）
+title: 都江堰、青城山、乐山大佛、峨眉山（自驾）
 author: lee
 pubDatetime: 2024-02-18T16:05:51Z
 slug: travel_dujiangyan
