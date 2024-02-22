@@ -1,10 +1,10 @@
 ---
 author: lee
 pubDatetime: 2022-09-26T12:13:24Z
-modDatetime: 2024-01-04T09:09:06Z
+modDatetime: 2024-02-04T09:09:06Z
 title: 万物静默如谜
 slug: one_movie
-featured: false
+featured: true
 draft: false
 tags:
   - 电影
@@ -23,6 +23,7 @@ description: 种种可能
 - 完美的日子
 - 下一个素熙  
   感同身受
+- 百万美元宝贝
 ## 电视
 - 兄弟连  
   > 我很珍惜这段记忆。有天我孙子问我一个问题，他问我：“爷爷，你是大战中的英雄吗？”爷爷回答：“不是，可是我与英雄们一起服役。”
