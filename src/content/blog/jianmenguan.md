@@ -9,6 +9,7 @@ tags:
   - 旅行
 description: 剑门关爬山的一天
 ---
+![剑门关](@assets/images/2023_1_jianmenguan/T_jianmenguan.jpg)
 
 因为近,也可能是想趁着太阳出去走走,于是吃完午饭直接出发,从家里开车到剑门关景区。
 
