@@ -13,7 +13,7 @@ description: "你当像鸟飞往你的山"
 
 > 有一种信仰深深地根植在我们的文化之中，那就是：家庭就是一切，自始至终，家庭都是人类的开始和最后的归宿。
 
-![你当像鸟飞往你的山封面图](@assets/images/Educated.jpg)
+![你当像鸟飞往你的山封面图](@assets/images/book/Educated.jpg)
 
 ## Table of contents
 

@@ -11,7 +11,7 @@ description: "喇蛄吟唱的地方"
 ---
 > 没有价值的男孩总是发出很多噪声，妈妈说。
 
-![中文译本封面图](@assets/images/WHERE_THE_CRAWDADS_SING.JPG)
+![中文译本封面图](@assets/images/book/WHERE_THE_CRAWDADS_SING.JPG)
 
 ## Table of contents
 
