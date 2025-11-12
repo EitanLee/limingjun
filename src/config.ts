@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://limingjun.pages.dev/", // replace this with your deployed domain
   author: "ming",
-  desc: "个人博客 blog astro",
-  title: "limingjun",
+  desc: "阳光会填满生活的缺口 blog",
+  title: "孤岛的君",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
